@@ -10,7 +10,8 @@
     "safari": "npm run testcafe safari tests/",
     "firefox": "npm run testcafe firefox tests/",
     "browsers": "npm run testcafe -- -b browserstack",
-    "ie": "npm run testcafe 'browserstack:ie@11.0:Windows 10' tests/"
+    "ie": "npm run testcafe 'browserstack:ie@11.0:Windows 10' tests/",
+    "test:reports": "testcafe chrome tests/*.js --skips-js-errors --reporter html:reports/htmlReports/skyUiTestReport.html"
   },
   "author": "",
   "license": "ISC",
