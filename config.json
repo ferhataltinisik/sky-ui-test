@@ -1,0 +1,5 @@
+{
+    "baseUrlDev": "...",
+    "baseUrlStaging": "...",
+    "baseUrlProd": "https://reference-tryout-api.herokuapp.com/docs"
+}
