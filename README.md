@@ -10,9 +10,10 @@ Example test cases written in Testcafe, that:
 
 
 ## Setup
-1. clone clone https://github.com/ferhataltinisik/sky-ui-test.git
-2. install npm i
-3. Set your environment on Cli
+1. clone https://github.com/ferhataltinisik/sky-ui-test.git
+2. install TestCafe Runner extension
+3. install `npm i`
+4. Set your environment on Cli
 
     * `export TESTCAFE_ENV=prod`
     * `export TESTCAFE_ENV=test`  
