@@ -1,11 +1,26 @@
-##Testcafe Example
+## Sky Ui Tests Testcafe Example
 
-Example e2e tests (some of which are slightly silly) written in Testcafe, that:
+Example test cases written in Testcafe, that:
 
-use a page object pattern (now with 100% less class)
-are es6y
-use async/await
-run in parallel
-run on multiple browsers
-run headlessly
-run tests on BrowserStack
+- use a page object pattern
+- use async/await
+- run in parallel
+- run on multiple browsers
+- run headlessly
+
+
+## Setup
+1. clone clone https://github.com/ferhataltinisik/sky-ui-test.git
+2. install npm i
+3. Set your environment on Cli
+
+    * `export TESTCAFE_ENV=prod`
+    * `export TESTCAFE_ENV=test`  
+    * `export TESTCAFE_ENV=dev` 
+
+
+## Run
+* run npm test to watch in browser, or
+* npm run all to run parallel, headless, on Chrome and Firefox or
+* npm run browserstack to run tests in the cloud (requires an account and env keys to be set)
+* npm run to see more options
