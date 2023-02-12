@@ -22,6 +22,6 @@ Example test cases written in Testcafe, that:
 
 ## Run
 * use `npm run test` to run all test on chrome browser
-* run `npm test firefox` to run all test on firefox browser or use any browser name
+* use `npm test firefox` to run all test on firefox browser or use any browser name
 * use `npm run all` to run parallel, headless, on Chrome and Firefox
 * use `npm run browserstack` to run tests in the cloud (requires an account and env keys to be set)
