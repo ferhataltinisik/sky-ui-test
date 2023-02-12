@@ -4,7 +4,6 @@ Example test cases written in Testcafe, that:
 
 - use a page object pattern
 - use async/await
-- run in parallel
 - run on multiple browsers
 - run headlessly
 
