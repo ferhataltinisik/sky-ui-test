@@ -1,7 +1,9 @@
 import { Selector, t } from 'testcafe';
+import BasePage from './basePage';
 
-export default class HomePage {
+export default class HomePage extends BasePage{
     constructor() {
+        super();
         this.homePageHeader = Selector('#service');
         this.internalServerErrorLink = Selector('#service');
         this.listOfEndPoints = Selector('ul>li>a');
