@@ -5,7 +5,7 @@ import { getBaseUrl } from '../Helpers/baseUrl';
 
 
 
-fixture('Getting Started')
+fixture('Go to home page')
     .page(getBaseUrl());
 
 
@@ -17,10 +17,6 @@ test('Validate internal server error page title and header', async t => {
     const titleText = await internalServerErrorPage.getInternalServerErrorTitle();
     await t
         .expect(titleText).eql('Reference Tryout API');
-    
-  
-    // // homePage.internalServerErrorLink.click
-    // await t
-    //     .expect(titleTextt).eql('Reference Tryout API');
+
 });
 
