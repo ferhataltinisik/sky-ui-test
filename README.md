@@ -20,11 +20,13 @@ Example test cases written in Testcafe, that:
 
 
 ## Run
-* use `npm run test` to run all test on chrome browser
-* use `npm test firefox` to run all test on firefox browser or use any browser name
-* use `npm run all` to run all tests chrome:headless
-* use `npm run browserstack` to run tests in the cloud (requires an account and env keys to be set)
+* run npm test to watch in browser, or
+* npm run all to run parallel, headless, on Chrome and Firefox or
+* npm run browserstack to run tests in the cloud (requires an account and env keys to be set)
+* npm run to see more options
 
 ## Report
 * use `npm run test:reports` to run all tests and create html report
 * to see html report go reports/htmlReports file
+
+![Alt text](reports/report_screenshot.png "Optional title")
