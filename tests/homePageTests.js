@@ -1,9 +1,11 @@
 import HomePage from '../pages/home-page';
-import { getBaseUrl } from '../Helpers/baseUrl';
 
 
-fixture('Go to home page')
-    .page(getBaseUrl());
+fixture`Go to home page`
+    .beforeEach(async t => { // beforeAll hack
+        const homePage = new HomePage();
+        await homePage.goto("/") // pass end-pont
+    })
 
 test('Validate home page title', async t => {
     const homePage = new HomePage();
