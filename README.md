@@ -24,3 +24,7 @@ Example test cases written in Testcafe, that:
 * use `npm test firefox` to run all test on firefox browser or use any browser name
 * use `npm run all` to run all tests chrome:headless
 * use `npm run browserstack` to run tests in the cloud (requires an account and env keys to be set)
+
+## Report
+* use `npm run test:reports` to run all tests and create html report
+* to see html report go reports/htmlReports file
