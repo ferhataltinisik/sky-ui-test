@@ -25,3 +25,9 @@ Example test cases written in Testcafe, that:
 * npm run all to run parallel, headless, on Chrome and Firefox or
 * npm run browserstack to run tests in the cloud (requires an account and env keys to be set)
 * npm run to see more options
+
+## Report
+* use `npm run test:reports` to run all tests and create html report
+* to see html report go reports/htmlReports file
+
+![Alt text](reports/report_screenshot.png "Optional title")
